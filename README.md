@@ -6,7 +6,18 @@ The **Starship Technology merchant** on space stations (the one who sells Starsh
 - **No Corvette modules** are added.
 - Changes one file: `METADATA\REALITY\DEFAULTREALITY.MBIN` (`TradeSettings > ShipTechSpecialist > AlwaysPresentProducts`).
 
-## Why is there a script and not a ready .pak?
+## Install with Vortex (easiest)
+1. Download `CookieGamer_ShipPartsMerchant.zip` from the latest release.
+2. Open Vortex with No Man's Sky selected and go to **Mods**.
+3. Drag the zip into the "Drop File(s)" box at the bottom.
+4. Press **Install**, then **Enable**, then click **Deploy** if Vortex asks.
+5. Start the game and talk to the starship technology merchant on a space station.
+
+Manual install without Vortex: unzip it so you get `No Man's Sky\GAMEDATA\MODS\CookieGamer_ShipPartsMerchant\METADATA\REALITY\DEFAULTREALITY.MBIN`.
+
+The zip was built from the Oct 2026 game files using MBINCompiler 7.07.0-pre1. After a big game update you may need a new version.
+
+## Advanced: AMUMSS script
 Mods have to be built from your own copy of the game files, so this is shipped as an **AMUMSS script**. AMUMSS builds the mod on your PC and installs it in one go, and it keeps working after game updates.
 
 ## Install (about 10 minutes, done once)
