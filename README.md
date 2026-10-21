@@ -4,6 +4,7 @@ The **Starship Technology merchant** on space stations (the one who sells Starsh
 
 - Everything he already sells (reactors, ship upgrades) **stays**. Parts are only added.
 - **No Corvette modules** are added.
+- v1.2.0: the merchant's shop size is raised from 16-24 items to 300, so all parts show.
 - Changes one file: `METADATA\REALITY\DEFAULTREALITY.MBIN` (`TradeSettings > ShipTechSpecialist > AlwaysPresentProducts`).
 
 ## Install with Vortex (easiest)
@@ -30,7 +31,7 @@ Mods have to be built from your own copy of the game files, so this is shipped a
    - If asked for the game folder, pick it (Steam: `C:\Program Files (x86)\Steam\steamapps\common\No Man's Sky`).
 5. Start No Man's Sky. If it warns about mods, accept. Go to a space station and talk to the starship technology merchant.
 
-Tip: on Difficulty settings, set "Goods availability" to Abundant if not all parts show up.
+Tip: shops you already visited may keep their old stock for a while; try another space station. On Difficulty settings, set "Goods availability" to Abundant if not all parts show up.
 
 ## Remove it
 Delete the `CookieGamer_ShipPartsMerchant` folder from `No Man's Sky\GAMEDATA\MODS`.

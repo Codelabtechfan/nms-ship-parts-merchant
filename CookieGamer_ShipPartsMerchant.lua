@@ -310,6 +310,14 @@ NMS_MOD_DEFINITION_CONTAINER = {
               ["PRECEDING_KEY_WORDS"] = {"TradeSettings", "ShipTechSpecialist", "AlwaysPresentProducts"},
               ["ADD"] = table.concat(adds, "\n"),
             },
+            {
+              -- let the merchant show all of his stock (vanilla 16-24)
+              ["SPECIAL_KEY_WORDS"] = {"ShipTechSpecialist", "GcTradeData"},
+              ["VALUE_CHANGE_TABLE"] = {
+                {"MinItemsForSale", "300"},
+                {"MaxItemsForSale", "300"},
+              },
+            },
           },
         },
       },
